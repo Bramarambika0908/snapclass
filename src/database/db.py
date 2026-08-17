@@ -34,15 +34,9 @@ def teacher_login(username, password):
 
 
 def get_all_students():
-    try:
-        response = supabase.table("students").select("*").execute()
-        print("STUDENTS RESPONSE:", response)
-        print("STUDENTS DATA:", response.data)
-        return response.data
+    response = supabase.table('students').select("*").execute()
+    return response.data
 
-    except Exception as e:
-        print("SUPABASE ERROR:", repr(e))
-        raise Exception(f"Supabase student query failed: {repr(e)}")
 
 def create_student(new_name, face_embedding=None, voice_embedding=None):
     data = {'name': new_name, 'face_embedding':face_embedding, "voice_embedding": voice_embedding}
