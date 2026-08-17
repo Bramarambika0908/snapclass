@@ -18,4 +18,3 @@ segno
 pillow
 
 librosa
-resemblyzer
