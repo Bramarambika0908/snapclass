@@ -13,11 +13,11 @@ SnapClass is an AI-powered attendance management system that automates student a
 - 🗄️ Cloud Database | Stores application data using Supabase
 - can also perform **grouped face & voice Recognition**
 
-##🛠️Requirements: 
+## 🛠️Requirements: 
 
-*Python 3.7+ (mostly prefer 3.11)
-*Webcam
-*Required Python packages (listed in requirements.txt)
+* Python 3.7+ (mostly prefer 3.11)
+* Webcam
+* Required Python packages (listed in requirements.txt)
 
 ## Installation
 1. Clone this repository
